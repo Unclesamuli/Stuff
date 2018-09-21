@@ -34,6 +34,8 @@ alias "-net" "net_graph 0"
 alias "+info" "+net;+showscores"
 alias "-info" "-showscores;-net"
 
+bind "F8" "disconnect"
+
 bind i "toggle cl_righthand 0 1"
 bind t "+lookatweapon";r_cleardecals"
 
@@ -45,7 +47,8 @@ bind "F" " buy flashbang; use weapon_flashbang"
 bind "G" " buy hegrenade; use weapon_hegrenade"
 bind "C" " buy smokegrenade; use weapon_smokegrenade"
 bind "4" " buy incgrenade; buy molotov; use weapon_incgrenade; use weapon_molotov"
-bind "H"   "use weapon_c4"
-bind "5"   "use weapon_c4;drop"
+bind "§" " buy decoy; use weapon_decoy
+bind "5"   "use weapon_c4"
+bind "H"   "use weapon_c4;drop"
 bind F3 ignorerad
 bind F4 ignoremsg
